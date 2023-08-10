@@ -102,3 +102,10 @@ footer {
 	transition-timing-function: ease-in-out;
 	transition-delay: 0s;
 }
+.main-link {
+	color: var(--main-text-color);
+	height: 50px;
+	width: 120px;
+	margin-left: -10px;
+	margin-right: 8px;
+}
