@@ -4,24 +4,51 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Format C:/ - Главная</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
 	<div class="header">
-		<a style="height: 50px;" href="index.html"><img class="main-link" src="img/logo-text.png" alt="header-logo"></a>
+		<a style="margin-top: 7px; margin-bottom: 7px;" class="header-link"  href="index.html">
+			<img style=" width: 36px; height: 36px;" src="img/logo.png" alt="header-logo">
+		</a>
 		<a class="header-link" href="models.html">модели</a>
 		<a class="header-link" href="configure.html">конфигуратор</a>
 		<a class="header-link" href="services.html">услуги</a>
 		<a class="header-link" href="support.html">поддержка</a>
 		<a class="header-link" href="projects.html">проекты</a>
 		<a class="header-link" href="company.html">компания</a>
-		<a class="header-number" href="tel:89932202335" >8 (993) 220-23-35</a>
-		
+		<a style="color: #ddd; text-color: #ddd;" class="header-link" href="tel:89932202335" >8 (993) 220-23-35</a>
 	</div>
-	<img class="rickroll" src="https://th.bing.com/th/id/OIP.NK7RMXVSCZozmgsK3bZiHwHaE8?pid=ImgDet&rs=1" alt="">
+	<div class="main">
+		<div class="slider">
+			<div class="swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img style="object-fit: cover; height:600px; width: 100%;" src="https://nypost.com/wp-content/uploads/sites/2/2016/09/astley1_index1a.jpg?quality=90&strip=all&w=1200" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img style="object-fit: cover; height:600px; width: 100%;" src="https://hyperpc.ru/images/company/promo/win-hyperpc-cyber-2023/hyperpc-cyber-promo-banner-desktop_webp.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img style="object-fit: cover; height:600px; width: 100%;" src="https://hyperpc.ru/images/company/news/hyperpc-in-uae/hyperpc-in-uae-desktop-banner-1_webp.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img style="object-fit: cover; height:600px; width: 100%;" src="https://hyperpc.ru/images/company/upgrade-center/main-banner/update/hpc-upgrade-center-intro-exploded-desktop-banner_webp.jpg" alt="">
+					</div>
+				</div>
+				<div class="arrs">
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<footer class="footer">
 		<div class="rights">© 2022-2023 Format C. Все права защищены.</div>
 		<div class="footer-links">
@@ -31,5 +58,7 @@
 			<a class="footer-link" href="">Карта сайта</a>
 		</div>
 	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
